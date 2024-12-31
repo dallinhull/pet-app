@@ -1,5 +1,6 @@
+inport React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'; // Import necessary routing components
-//import "./app.css";
+import "./app.css";
 import Home from './pages/home';  // Import your Home component
 import Dogs from './pages/dogs.tsx'; // Import your About component
 import Cats from './pages/cats.tsx';
